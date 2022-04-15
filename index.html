@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ilTempeDellPizza</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="css/procCSS.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/JS/GestionUsuarioImplAjax.js"></script>
+</head>
+<body>
+    <header class="head">
+    <div class="nav">
+        <div class="logo">
+            <a href="#top"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></a>
+        </div>
+        <nav >
+            <ul>
+                <li><a href="#prod" onclick="productos('Pizza',0,true)" onfocus="deleteProductos()" >Pizzas</a></li>
+                <li><a href="#prod" onclick="productos('Ensalada',0,true)" onfocus="deleteProductos()">Ensaladas</a></li>
+                <li><a href="#prod" onclick="productos('Pasta',0,true)" onfocus="deleteProductos()">Pasta</a></li>
+                <li><a href="#prod" >FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a id="login" href="Login.html">Login</a>
+            <a id="perf" href="PerfilDatos.html" style="display: none">Perfil</a>
+            <a id="clsSesion" onclick="cerrarSession()" style="display: none" href="index.html">cerrar sesion</a>
+        </div>
+    </div>
+    </header>
+    <main id="main">
+        <section class="intro2" id="top">
+            <div class="align-content-center img-intro text-black">
+                <a href="index.html"><img src="img/logo%20fol1.png"></a>
+            </div>
+        </section>
+        <section class="intro3 text-xl-center">
+            <div class="cont-intro3">
+                <input class="form-control mr-sm-2" id="search" type="search" placeholder="Buscar" aria-label="Search">
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light text-center text-lg-start" id="prod">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-dark" href="#">ilTempe Della Pizza</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+<script src="/JS/common.js"></script>
+<script src="/JS/GestionProductosImplAjax.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>

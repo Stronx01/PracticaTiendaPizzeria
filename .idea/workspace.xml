@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="866e926f-cb92-42e7-82e8-138859ee8e75" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/JS/GestionUsuarioImplAjax.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="20Ux5VTvqROWu8Rpaes7lQ1EowQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SubirExamen/formularioLista.js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Desktop\Practica1\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\andre\Desktop\Andre\2DAW\Front\Cliente\Practica1\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.favs.js">
+    <configuration name="GestUsuario.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/GestUsuario.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Usuarios.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../ejercicio6/Usuarios.js" working-dir="$PROJECT_DIR$/../ejercicio6">
+      <method v="2" />
+    </configuration>
+    <configuration name="favs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/favs.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.favs.js" />
+        <item itemvalue="Node.js.GestUsuario.js" />
+        <item itemvalue="Node.js.Usuarios.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="866e926f-cb92-42e7-82e8-138859ee8e75" name="Changes" comment="" />
+      <created>1636112787527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636112787527</updated>
+      <workItem from="1636112788809" duration="19000" />
+      <workItem from="1636577141334" duration="3108000" />
+      <workItem from="1636624199928" duration="11781000" />
+      <workItem from="1636969554405" duration="3046000" />
+      <workItem from="1636972703590" duration="7273000" />
+      <workItem from="1636980117348" duration="2000" />
+      <workItem from="1636982159872" duration="3000" />
+      <workItem from="1637013295162" duration="598000" />
+      <workItem from="1637015306052" duration="2000" />
+      <workItem from="1637049911356" duration="34000" />
+      <workItem from="1637058767544" duration="1196000" />
+      <workItem from="1637138561566" duration="2196000" />
+      <workItem from="1637151941721" duration="54000" />
+      <workItem from="1637229401690" duration="11185000" />
+      <workItem from="1637263848296" duration="4775000" />
+      <workItem from="1637319024222" duration="8209000" />
+      <workItem from="1637332476787" duration="3473000" />
+      <workItem from="1637423889753" duration="4044000" />
+      <workItem from="1637448570831" duration="3802000" />
+      <workItem from="1637504471530" duration="3459000" />
+      <workItem from="1637574715174" duration="21740000" />
+      <workItem from="1637670629532" duration="4912000" />
+      <workItem from="1637697688232" duration="57586000" />
+      <workItem from="1637833931381" duration="1484000" />
+      <workItem from="1638006584384" duration="23000" />
+      <workItem from="1638454156624" duration="19000" />
+      <workItem from="1640458666147" duration="73000" />
+      <workItem from="1644228604717" duration="13183000" />
+      <workItem from="1644314462617" duration="8547000" />
+      <workItem from="1644396643503" duration="68297000" />
+      <workItem from="1644914267714" duration="70803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

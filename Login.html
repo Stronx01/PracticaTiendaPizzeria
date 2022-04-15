@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ilTempeDellPizza</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="css/logRegCSS.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/JS/GestionUsuarioImplAjax.js"></script>
+</head>
+<body>
+<header class="head">
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></a>
+        </div>
+        <nav >
+            <ul>
+            </ul>
+        </nav>
+        <div class="login">
+            <a id="login" href="Login.html">Login</a>
+            <a id="perf" href="PerfilDatos.html" style="display: none">Perfil</a>
+            <a id="clsSesion" onclick="cerrarSession()" style="display: none" href="index.html">cerrar sesion</a>
+        </div>
+    </div>
+</header>
+    <main>
+        <div class="section">
+            <div class="container">
+                <div class="row full-height justify-content-center">
+                    <div class="col-12 text-center align-self-center py-5">
+                        <div class="section pb-5 pt-5 pt-sm-2 text-center">
+                            <h6 class="mb-0 pb-3"><span>Iniciar Sesión</span><span>Registrarse</span></h6>
+                            <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+                            <label for="reg-log"></label>
+                            <div class="card-3d-wrap mx-auto">
+                                <div class="card-3d-wrapper">
+                                    <div class="card-front">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3" id="tituloLog"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></h4>
+                                                <div class="form-group">
+                                                    <input type="email" name="logemail" class="form-style" placeholder="Introducir correo electrónico" id="email" autocomplete="off">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" name="logpass" class="form-style" placeholder="Contraseña" id="pass" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <div id="inic">
+                                                    <button href="" class="btn mt-4" onclick="login()">Iniciar Sesión</button>
+                                                </div>
+
+                                                <p class="mb-0 mt-4 text-center"><a href="#0" class="link">¿Olvidaste tu contraseña?</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-back">
+                                        <div class="center-wrap">
+                                            <div class="section text-center">
+                                                <h4 class="mb-4 pb-3" id="titulo"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></h4>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-style" placeholder="Introduce tu nombre" id="firstName" autocomplete="off">
+                                                    <i class="input-icon uil uil-user"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="text" class="form-style" placeholder="Introduce tu apellido" id="lastName" autocomplete="off">
+                                                    <i class="input-icon uil uil-user"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="email" class="form-style" placeholder="Introduce tu correo electrónico" id="emailA" autocomplete="off">
+                                                    <i class="input-icon uil uil-at"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="password" class="form-style" placeholder="Introduce tu contraseña" id="passA" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <div class="form-group mt-2">
+                                                    <input type="date" class="form-style" placeholder="fecha" id="fech" autocomplete="off">
+                                                    <i class="input-icon uil uil-lock-alt"></i>
+                                                </div>
+                                                <div id="inicR">
+                                                    <button class="btn mt-4" onclick="enviarUsuario()">Registrarse</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="/JS/common.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>

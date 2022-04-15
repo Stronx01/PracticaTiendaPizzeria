@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:montserrat;
+}
+h1, h2, h3, h4{
+    font-family: Rubik;
+}
+.head{
+    background-color: rgba(238, 238, 238, 0.75);
+    width: 100%;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    justify-content: space-around;
+}
+nav a{
+    padding-top: 5vh;
+    font-size: 20px;
+    color: #868686;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: Rubik;
+}
+nav a:hover,
+nav a:focus{
+    color: black;
+    text-decoration: underline;
+}
+.login a{
+    padding-top: 5vh;
+    font-size: 20px;
+    color: #868686;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: Rubik;
+}
+.login a:hover,
+.login a:focus{
+    color: black;
+    text-decoration: underline;
+}
+.modal-container{
+    border-radius: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10vh;
+}
+.grid {
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.prod{
+    width: 100%;
+    display: flex;
+    background-color: beige;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),0 8px 16px -8px rgba(0,0,0,0.3),0 -6px 16px -6px rgba(0,0,0,0.025);;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transform .1s;
+}
+.prod img{
+    padding: 2px;
+    width: 70%;
+}
+.prod:hover,
+.prod:focus{
+    transform: scale(1.1);
+}

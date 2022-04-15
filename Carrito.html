@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ilTempeDellPizza</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="css/perfCss.css">
+    <link rel="stylesheet" href="css/logRegCSS.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/JS/GestionUsuarioImplAjax.js"></script>
+</head>
+<body>
+<header class="head">
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></a>
+        </div>
+        <nav >
+            <ul>
+                <li><a href="#prod" onclick="productos('Pizza',0)" onfocus="deleteProductos()">Historial de Pedidos</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a id="login" href="Login.html">Login</a>
+            <a id="perf" href="PerfilDatos.html" style="display: none">Perfil</a>
+            <a id="clsSesion" onclick="cerrarSession()" style="display: none" href="index.html">cerrar sesion</a>
+        </div>
+    </div>
+</header>
+<main style="text-align: center; margin-top: 15vh; margin-bottom: 15vh">
+    <h1>Carrito</h1>
+    <a href="producto.html" class="btno text-center"><H3>Volver a Realizar otro Pedido</H3></a>
+    <div class="container-fluid" style="background-color:beige; margin-top: 5vh; border-radius: 20px;">
+        <div class="container">
+            <div class="row" id="ROW">
+                <div class="col" id="COL" style="border-right: solid 1px">
+                    <h1 id="tilt">Selecciona una Tarjeta</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="/JS/common.js"></script>
+<script src="/JS/GestionCarrito.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>

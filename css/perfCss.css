@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family:montserrat;
+    display: flex;
+    justify-content: center;
+}
+h1, h2, h3, h4{
+    font-family: Rubik;
+}
+.head{
+    background-color: rgba(238, 238, 238, 0.75);
+    width: 100%;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    justify-content: space-around;
+}
+nav a{
+    padding-top: 5vh;
+    font-size: 20px;
+    color: #868686;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: Rubik;
+}
+nav a:hover,
+nav a:focus{
+    color: black;
+    text-decoration: underline;
+}
+.login a{
+    padding-top: 5vh;
+    font-size: 20px;
+    color: #868686;
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: Rubik;
+}
+.login a:hover,
+.login a:focus{
+    color: black;
+    text-decoration: underline;
+}
+.container {
+    margin-top: 10vh;
+}
+.modal-container {
+    border-radius: 20px;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),0 8px 16px -8px rgba(0,0,0,0.3),0 -6px 16px -6px rgba(0,0,0,0.025);;
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.banner-container {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    grid-column: 1/4;
+    background-color: beige;
+}
+
+img {
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.user-container > p {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.user-container p:hover,
+.user-container p:focus{
+    text-decoration: underline;
+}
+
+.info-banner {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info-banner p {
+    color: #fff;
+    font-weight: 100;
+}
+
+.form-container {
+    padding: 90px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #fff;
+    grid-column: 4/6;
+}
+
+.form-container h2 {
+    color: black;
+    line-height: 1.4;
+}
+
+.welcome-info {
+    margin-top: 10px;
+}
+
+.info-form {
+    margin-top: 30px;
+
+}
+
+.info-form p {
+    color: black;
+    line-height: 1.6;
+    display: flex;
+}
+.info-form p a{
+    margin-top: 4px;
+    margin-left: 4px;
+
+}
+form {
+    margin-top: 40px;
+}
+
+.input-div {
+    position: relative;
+    margin: 25px 0;
+    padding: 5px 0;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.input-div.one {
+    margin-top: 20px;
+}
+
+.input-div.two {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+.input-div.tree {
+    margin-bottom: 4px;
+}
+
+.input-div > div {
+    position: relative;
+    height: 40px;
+}
+
+.input-div > div h5 {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    transition: .3s;
+}
+
+.input-div >div > input {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5em 0.7rem;
+    font-size: 1rem;
+    color: #3F3E55;
+}
+
+a {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #868686;
+    font-size: 0.8em;
+    transition: -3s;
+    font-weight: 400;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.btno {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    color: #868686;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-color: beige;
+    background-size: 200%;
+    align-items: center;
+    align-content: center;
+}
+
+.btno:hover {
+    color: black;
+    text-decoration: underline;
+}

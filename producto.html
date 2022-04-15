@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ilTempeDellPizza</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="css/procCSS.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/JS/GestionUsuarioImplAjax.js"></script>
+</head>
+<body>
+<header class="head">
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo%20fol1.png" style="width: 200px; height:10vh" ></a>
+        </div>
+        <nav >
+            <ul>
+                <li><a href="#prod" onclick="productos('Pizza',0,true)" onfocus="deleteProductos()" >Pizzas</a></li>
+                <li><a href="#prod" onclick="productos('Ensalada',0,true)" onfocus="deleteProductos()">Ensaladas</a></li>
+                <li><a href="#prod" onclick="productos('Pasta',0,true)" onfocus="deleteProductos()">Pasta</a></li>
+                <li><a href="Carrito.html" >Ir al Carrito</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a id="login" href="Login.html">Login</a>
+            <a id="perf" href="PerfilDatos.html" style="display: none">Perfil</a>
+            <a id="clsSesion" onclick="cerrarSession()" style="display: none" href="index.html">cerrar sesion</a>
+        </div>
+    </div>
+</header>
+<main id="main">
+    <section class="intro3 text-xl-center">
+        <div class="container-fluid" style="margin-top: 15vh; padding: 10px">
+            <h1>Primero introduce tu dirección</h1>
+            <div class="container-fluid" style="background-color:beige; border-radius: 20px; padding: 20px 30rem;">
+                <input class="form-control text-center" id="BuscarDireccion" type="search" placeholder="Introduce tu direccion" aria-label="Search">
+                <i class="input-icon uil uil-user"></i>
+            <div>
+                <button class="btno" style="border: 1px solid; border-radius: 5px;" onclick="btnDir()" >Añadir</button>
+            </div>
+            </div>
+            <h2>O selecciona tu direccion</h2>
+            <form id="ulDireecion" style="padding: 20px 30rem;">
+            </form>
+            <h3>Ahora vamos a buscar productos</h3>
+        </div>
+        <div class="cont-intro3">
+            <input class="form-control text-center" id="search" type="search" placeholder="Buscar Productos" aria-label="Search">
+        </div>
+    </section>
+</main>
+<footer class="bg-light text-center text-lg-start" id="prod">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="#">ilTempe Della Pizza</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+</body>
+<script src="/JS/common.js"></script>
+<script src="/JS/GestionProductosImplAjax.js"></script>
+<script src="/JS/GestionDireccionAJAX.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>
